@@ -1,0 +1,337 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+body{
+font-size:100%;
+font-family:arial;
+line-height:1.5;
+background: #339966;
+}
+
+div#wrapper{
+width: 940px;
+margin: 0 auto;
+overflow: hidden;
+background: #80ff00;
+}
+
+header{
+background-image: url(../images/header-3.jpg);
+overflow:hidden;
+width:940px;
+text-align:center;
+padding:10px;
+margin:0 auto;
+}
+
+header h1{
+font-family:"ar berkley";
+font-size:55px;
+color: white;
+margin-top:10px; 
+margin-right:80px;
+}
+
+#logo{
+height:100px;
+float:left;
+margin-left:20px;
+}
+
+nav{
+height:30px;
+background-color:#80ffdf;
+line-height:30px;
+}
+
+nav li{
+list-style-type:none;
+float:left;
+width:20%;
+text-align:center;
+
+}
+
+nav a{
+text-decoration: none;
+display: block;
+}
+
+nav a: hover{
+background: #00805e;
+color: #fff;
+}
+
+/*Start of "Home"*/
+
+main{
+width: 580px;
+float: left;
+padding: 20px;	
+margin: 20px auto;
+background: #ffcc66;
+}
+
+aside{
+width: 300px;
+height: 400px;
+float: right;
+padding: 20px;	
+margin: 20px auto;
+background: #99ccff;
+}
+
+/*"Home" finishes here*/
+
+
+/*Start of "Main"*/
+
+main{
+width: 580px;
+float: left;
+padding: 20px;	
+margin: 20px auto;
+background: #ffcc66;
+}
+
+aside{
+width: 300px;
+height: 400px;
+float: right;
+padding: 20px;	
+margin: 20px auto;
+background: #99ccff;
+}
+
+/*start of Main's THANKS page (form) */
+
+main#support{
+width:800px;	
+background-color:#00cccc;
+margin:10px auto;	  
+padding:5px;
+margin-left:40px;
+margin-top:20px;
+}
+
+img#back{
+height:450px;
+margin:20px auto;
+display:block;
+}
+
+h2.thx{
+text-align:center;
+font-style:italic;
+font-size:48px;
+}
+
+.taichi{
+display:block;	
+margin:0 auto;
+margin-bottom:3px;
+margin-top:5pm;	
+}
+
+h2 {
+margin-bottom:2px;
+text-align:center;
+font-size:24px;
+}
+
+/*End of "Main"*/
+
+
+/*Starts of "About"*/
+div#about{
+padding: 2em;
+margin: 0 auto;
+overflow: hidden;
+background-image: url(../images/lighthouse-2.jpg);
+background-size:cover;
+}
+
+main#main-about{
+background:rgba(204, 255, 255, 0.5);
+width:420px;
+height:inherit;
+float:left;
+margin-top:10px;
+margin-bottom:2px;
+text-align:left;
+overflow:hidden;
+color:#000;
+}
+
+h2.about{
+font-size:20px;
+text-align:center;
+}
+
+p.quote{
+text-align:right;
+margin-bottom:20px;
+}
+
+div#accordion{
+	width: 46%;
+    float: left;
+}
+
+div#of-video{
+	width: 50%;
+    height: 260px;
+    float: right;
+    clear: right;
+    overflow: hidden;
+    font-size: .8em;
+    font-weight: bold;
+    text-align: center;
+}
+
+iframe#video{
+		display: none;
+width:400px;
+height:260px;
+}
+
+div#reference{
+background:#ffeecc;
+width:380px;
+height:125px;
+overflow:hidden;
+text-align:left;		
+}
+
+h3#aside{
+text-align:center;	
+}
+
+iframe#video{
+max-height:100%;
+}
+/*Ends of "About"*/
+
+/*Start of "Location"*/
+div#location{
+width: 940px;
+height:630px;
+margin: 0 auto;
+overflow: hidden;
+background-image: url(../images/lighthouse-3.jpg);
+background-size:cover;
+}
+
+div#tabs {
+	margin: 2em;
+}
+
+table{
+background:rgba(179, 89, 0, 0.4);
+width:45%;
+border:1.5px solid blue;
+border-collapse:collapse;
+float:right;
+margin-top:330px;
+margin-right:100px;	
+color:#fff;
+}
+
+td{
+border:1.5px solid blue;
+padding:10px;	
+}
+
+td.small{
+width:75px;
+}
+
+td p{
+margin:0;
+padding:0;
+font-style:italic;
+text-align:center;
+}
+
+th{
+background:rgba(179, 89, 0, 0.4);
+padding:2px;
+font-size:1.2em;	
+}
+
+/*end of "Location"*/
+
+
+/*Start of "Contact"*/
+div#contact{
+width: 940px;
+margin: 0 auto;
+overflow:hidden;
+background-image: url(../images/lighthouse-5.jpg);
+background-size:cover;
+}
+
+.yellowBorder{
+	border: 2px solid yellow;
+	
+}
+main#contact-main{
+width:450px;
+float:left;
+margin-top:5px;;
+background-color: rgba(204, 255, 255, 0.5);
+}
+
+aside#contact-aside{
+width:275px;
+height:auto;
+float:right;
+clear:right;
+margin-top:250px;
+margin-right: 20px;
+}
+
+div#contact-div{
+width:275px;
+background-color:rgba(204, 255, 255, 0);
+text-align:center;
+font-size:16px;
+margin-left:20px;
+}	
+
+div#box3-1{
+width:275px;
+padding:20px auto;
+}
+
+#box3-1 h2{
+text-align:center;
+}
+
+/*End of "Contact"*/
+
+footer{
+width:940px;
+height: 30px;
+line-height: 30px;
+margin-right:20px;
+background-color:rgba(204, 255, 255, 0);
+clear:both;
+overflow:hidden;
+}
+
+footer li{
+font-size: .875em;
+float: left;
+list-style-type: none;
+text-align:center;
+width: 33.33%;
+}
+
+footer ul{
+width: 70%;
+overflow: hidden;
+margin: 0 auto;
+}
